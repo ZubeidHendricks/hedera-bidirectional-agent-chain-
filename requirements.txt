@@ -1,0 +1,23 @@
+# Core dependencies
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+python-multipart>=0.0.6
+google-genai>=0.7.0
+langgraph>=0.2.74
+langchain-core>=0.3.0
+langgraph-checkpoint>=2.0.0
+python-dotenv>=1.0.0
+aiohttp>=3.9.0
+httpx[socks]>=0.25.0
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# RAG and Vector Search dependencies
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+pandas>=2.0.0
+sentence-transformers>=2.2.0
+
+# Additional utilities
+pathlib2>=2.3.7

@@ -1,0 +1,26 @@
+{
+  "created_at": "2025-08-08T20:40:04.016751",
+  "total_chunks": 28,
+  "embedding_dimensions": 3072,
+  "faiss_index_size": 0,
+  "chunk_types": [
+    "season_calendar",
+    "developer_guide",
+    "record_entry",
+    "rider_standing",
+    "standings_summary",
+    "race_summary",
+    "race_event",
+    "race_result",
+    "race_conditions",
+    "records_summary"
+  ],
+  "files_processed": [
+    "use_cases",
+    "sdk_documentation",
+    "developer_guides",
+    "api_examples",
+    "services_documentation",
+    "tutorials"
+  ]
+}

@@ -1,0 +1,4 @@
+sdk_name,version,language,platform,installation,key_features,documentation_url,github_url,examples_count,last_updated,download_count
+Hedera SDK for JavaScript,2.50.0,JavaScript/TypeScript,"Node.js, Browser",npm install @hashgraph/sdk,"Full API coverage, Promise-based, TypeScript support",https://docs.hedera.com/hedera/sdks-and-apis/sdks/javascript-sdk,https://github.com/hashgraph/hedera-sdk-js,45,2025-01-01,"50,000+/month"
+Hedera SDK for Java,2.50.0,Java,JVM,Maven/Gradle dependency,"Native Java integration, extensive examples, enterprise-ready",https://docs.hedera.com/hedera/sdks-and-apis/sdks/java-sdk,https://github.com/hashgraph/hedera-sdk-java,60,2025-01-01,"25,000+/month"
+Hedera SDK for Go,2.50.0,Go,Go runtime,go get github.com/hashgraph/hedera-sdk-go/v2,"Idiomatic Go, high performance, concurrent operations",https://docs.hedera.com/hedera/sdks-and-apis/sdks/go-sdk,https://github.com/hashgraph/hedera-sdk-go,35,2025-01-01,"15,000+/month"

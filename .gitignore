@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Environment Variables (IMPORTANT: Keep your API keys safe)
+.env
+.env.local
+.env.production
+.env.staging
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+hedera_embeddings_creation.log
+
+# AI/ML artifacts (these can be regenerated)
+*.pkl
+*.bin
+*.faiss
+agents/hedera_rag_kb/*.pkl
+agents/hedera_rag_kb/*.bin
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation builds
+docs/_build/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Zone Identifier files (Windows WSL)
+*:Zone.Identifier

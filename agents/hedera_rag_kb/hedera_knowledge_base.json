@@ -1,0 +1,361 @@
+{
+  "chunks": [
+    {
+      "text": "RACE RESULTS: Api Examples 2025\nWinner: Unknown Rider\nWinner Team: Unknown\nTotal Finishers: 4\n\nPODIUM FINISHERS:\nUnknown. Unknown Rider - Unknown\nUnknown. Unknown Rider - Unknown\nUnknown. Unknown Rider - Unknown",
+      "metadata": {
+        "file_key": "api_examples",
+        "chunk_type": "race_summary",
+        "race_name": "Api Examples",
+        "season": "2025",
+        "winner": "Unknown Rider",
+        "winner_team": "Unknown"
+      }
+    },
+    {
+      "text": "RACE RESULT: Api Examples 2025\nPosition: Unknown\nRider: Unknown Rider\nTeam: Unknown",
+      "metadata": {
+        "file_key": "api_examples",
+        "chunk_type": "race_result",
+        "race_name": "Api Examples",
+        "season": "2025",
+        "rider_name": "Unknown Rider",
+        "racing_number": "Unknown",
+        "position": "Unknown",
+        "points": "Unknown",
+        "team": "Unknown"
+      }
+    },
+    {
+      "text": "RACE RESULT: Api Examples 2025\nPosition: Unknown\nRider: Unknown Rider\nTeam: Unknown",
+      "metadata": {
+        "file_key": "api_examples",
+        "chunk_type": "race_result",
+        "race_name": "Api Examples",
+        "season": "2025",
+        "rider_name": "Unknown Rider",
+        "racing_number": "Unknown",
+        "position": "Unknown",
+        "points": "Unknown",
+        "team": "Unknown"
+      }
+    },
+    {
+      "text": "RACE RESULT: Api Examples 2025\nPosition: Unknown\nRider: Unknown Rider\nTeam: Unknown",
+      "metadata": {
+        "file_key": "api_examples",
+        "chunk_type": "race_result",
+        "race_name": "Api Examples",
+        "season": "2025",
+        "rider_name": "Unknown Rider",
+        "racing_number": "Unknown",
+        "position": "Unknown",
+        "points": "Unknown",
+        "team": "Unknown"
+      }
+    },
+    {
+      "text": "RACE RESULT: Api Examples 2025\nPosition: Unknown\nRider: Unknown Rider\nTeam: Unknown",
+      "metadata": {
+        "file_key": "api_examples",
+        "chunk_type": "race_result",
+        "race_name": "Api Examples",
+        "season": "2025",
+        "rider_name": "Unknown Rider",
+        "racing_number": "Unknown",
+        "position": "Unknown",
+        "points": "Unknown",
+        "team": "Unknown"
+      }
+    },
+    {
+      "text": "HEDERA DEVELOPER GUIDE: Getting Started with Hedera\nCategory: Getting Started\nDifficulty: Beginner\nSDK Version: 2.50.0\nDescription: Complete guide to setting up your first Hedera application\nPrerequisites: Basic programming knowledge, Node.js or Java\nEstimated Time: 2-3 hours\nTechnologies: JavaScript/Java SDK, REST API\nCode Language: JavaScript, Java\nHedera Services: HCS, HTS\nUse Case: Basic account and token operations",
+      "metadata": {
+        "file_key": "developer_guides",
+        "chunk_type": "developer_guide",
+        "guide_title": "Getting Started with Hedera",
+        "category": "Getting Started",
+        "difficulty": "Beginner",
+        "sdk_version": "2.50.0"
+      }
+    },
+    {
+      "text": "HEDERA DEVELOPER GUIDE: Hedera Consensus Service Deep Dive\nCategory: Consensus Service\nDifficulty: Advanced\nSDK Version: 2.50.0\nDescription: Advanced guide to implementing consensus messaging with HCS\nPrerequisites: Hedera basics, cryptography knowledge\nEstimated Time: 4-6 hours\nTechnologies: Hedera SDK, Mirror Node API\nCode Language: Java, Python\nHedera Services: HCS\nUse Case: Audit trails, supply chain tracking",
+      "metadata": {
+        "file_key": "developer_guides",
+        "chunk_type": "developer_guide",
+        "guide_title": "Hedera Consensus Service Deep Dive",
+        "category": "Consensus Service",
+        "difficulty": "Advanced",
+        "sdk_version": "2.50.0"
+      }
+    },
+    {
+      "text": "HEDERA DEVELOPER GUIDE: Smart Contracts 2.0 Development\nCategory: Smart Contracts\nDifficulty: Intermediate\nSDK Version: 2.50.0\nDescription: Building and deploying smart contracts on Hedera\nPrerequisites: Solidity, Ethereum development experience\nEstimated Time: 3-5 hours\nTechnologies: Solidity, Hardhat, Hedera SDK\nCode Language: Solidity, JavaScript\nHedera Services: Smart Contracts 2.0, HTS\nUse Case: DeFi applications, NFT marketplaces",
+      "metadata": {
+        "file_key": "developer_guides",
+        "chunk_type": "developer_guide",
+        "guide_title": "Smart Contracts 2.0 Development",
+        "category": "Smart Contracts",
+        "difficulty": "Intermediate",
+        "sdk_version": "2.50.0"
+      }
+    },
+    {
+      "text": "HEDERA DEVELOPER GUIDE: Token Service Integration Guide\nCategory: Token Service\nDifficulty: Intermediate\nSDK Version: 2.50.0\nDescription: Creating and managing fungible and non-fungible tokens\nPrerequisites: Hedera basics, token economics\nEstimated Time: 2-4 hours\nTechnologies: Hedera SDK, REST API\nCode Language: JavaScript, Go\nHedera Services: HTS\nUse Case: Token creation, NFT minting",
+      "metadata": {
+        "file_key": "developer_guides",
+        "chunk_type": "developer_guide",
+        "guide_title": "Token Service Integration Guide",
+        "category": "Token Service",
+        "difficulty": "Intermediate",
+        "sdk_version": "2.50.0"
+      }
+    },
+    {
+      "text": "HEDERA DEVELOPER GUIDE: File Service for Data Storage\nCategory: File Service\nDifficulty: Beginner\nSDK Version: 2.50.0\nDescription: Storing and retrieving files on the Hedera network\nPrerequisites: Basic Hedera knowledge\nEstimated Time: 1-2 hours\nTechnologies: Hedera SDK\nCode Language: Python, Java\nHedera Services: HFS\nUse Case: Document storage, data immutability",
+      "metadata": {
+        "file_key": "developer_guides",
+        "chunk_type": "developer_guide",
+        "guide_title": "File Service for Data Storage",
+        "category": "File Service",
+        "difficulty": "Beginner",
+        "sdk_version": "2.50.0"
+      }
+    },
+    {
+      "text": "RACE CONDITIONS: Unknown\nDate: Unknown\nCircuit: Unknown\nWeather: Unknown\nTrack Condition: Unknown",
+      "metadata": {
+        "file_key": "tutorials",
+        "chunk_type": "race_conditions",
+        "event": "Unknown",
+        "date": "Unknown",
+        "track": "Unknown",
+        "weather": "Unknown",
+        "temperature": "Unknown",
+        "track_condition": "Unknown",
+        "humidity": "Unknown"
+      }
+    },
+    {
+      "text": "RACE CONDITIONS: Unknown\nDate: Unknown\nCircuit: Unknown\nWeather: Unknown\nTrack Condition: Unknown",
+      "metadata": {
+        "file_key": "tutorials",
+        "chunk_type": "race_conditions",
+        "event": "Unknown",
+        "date": "Unknown",
+        "track": "Unknown",
+        "weather": "Unknown",
+        "temperature": "Unknown",
+        "track_condition": "Unknown",
+        "humidity": "Unknown"
+      }
+    },
+    {
+      "text": "RACE CONDITIONS: Unknown\nDate: Unknown\nCircuit: Unknown\nWeather: Unknown\nTrack Condition: Unknown",
+      "metadata": {
+        "file_key": "tutorials",
+        "chunk_type": "race_conditions",
+        "event": "Unknown",
+        "date": "Unknown",
+        "track": "Unknown",
+        "weather": "Unknown",
+        "temperature": "Unknown",
+        "track_condition": "Unknown",
+        "humidity": "Unknown"
+      }
+    },
+    {
+      "text": "MOTOGP 2025 SEASON CALENDAR:\nTotal Races: 5\nSeason Start: Unknown - Unknown\nSeason End: Unknown - Unknown\n\nCOMPLETE RACE SCHEDULE:\n1. Unknown\n   Date: Unknown\n   Track: Unknown\n2. Unknown\n   Date: Unknown\n   Track: Unknown\n3. Unknown\n   Date: Unknown\n   Track: Unknown\n4. Unknown\n   Date: Unknown\n   Track: Unknown\n5. Unknown\n   Date: Unknown\n   Track: Unknown",
+      "metadata": {
+        "file_key": "use_cases",
+        "chunk_type": "season_calendar",
+        "season": "2025",
+        "total_races": 5
+      }
+    },
+    {
+      "text": "RACE EVENT: Unknown\nRound: 1\nDate: Unknown\nCircuit: Unknown",
+      "metadata": {
+        "file_key": "use_cases",
+        "chunk_type": "race_event",
+        "event_name": "Unknown",
+        "date": "Unknown",
+        "track": "Unknown",
+        "round": 1
+      }
+    },
+    {
+      "text": "RACE EVENT: Unknown\nRound: 2\nDate: Unknown\nCircuit: Unknown",
+      "metadata": {
+        "file_key": "use_cases",
+        "chunk_type": "race_event",
+        "event_name": "Unknown",
+        "date": "Unknown",
+        "track": "Unknown",
+        "round": 2
+      }
+    },
+    {
+      "text": "RACE EVENT: Unknown\nRound: 3\nDate: Unknown\nCircuit: Unknown",
+      "metadata": {
+        "file_key": "use_cases",
+        "chunk_type": "race_event",
+        "event_name": "Unknown",
+        "date": "Unknown",
+        "track": "Unknown",
+        "round": 3
+      }
+    },
+    {
+      "text": "RACE EVENT: Unknown\nRound: 4\nDate: Unknown\nCircuit: Unknown",
+      "metadata": {
+        "file_key": "use_cases",
+        "chunk_type": "race_event",
+        "event_name": "Unknown",
+        "date": "Unknown",
+        "track": "Unknown",
+        "round": 4
+      }
+    },
+    {
+      "text": "RACE EVENT: Unknown\nRound: 5\nDate: Unknown\nCircuit: Unknown",
+      "metadata": {
+        "file_key": "use_cases",
+        "chunk_type": "race_event",
+        "event_name": "Unknown",
+        "date": "Unknown",
+        "track": "Unknown",
+        "round": 5
+      }
+    },
+    {
+      "text": "MOTOGP 2025 CHAMPIONSHIP STANDINGS:\nTotal Riders: 4\n\nCurrent Leader: Unknown Rider\nLeader Points: Unknown\nLeader Team: Unknown\n\nTOP 10 RIDERS:\nUnknown. Unknown Rider - Unknown points\n   Team: Unknown\nUnknown. Unknown Rider - Unknown points\n   Team: Unknown\nUnknown. Unknown Rider - Unknown points\n   Team: Unknown\nUnknown. Unknown Rider - Unknown points\n   Team: Unknown",
+      "metadata": {
+        "file_key": "services_documentation",
+        "chunk_type": "standings_summary",
+        "season": "2025"
+      }
+    },
+    {
+      "text": "RIDER STANDING: Unknown Rider\nChampionship Position: Unknown\nPoints: Unknown\nTeam: Unknown",
+      "metadata": {
+        "file_key": "services_documentation",
+        "chunk_type": "rider_standing",
+        "rider_name": "Unknown Rider",
+        "racing_number": "Unknown",
+        "position": "Unknown",
+        "points": "Unknown",
+        "team": "Unknown"
+      }
+    },
+    {
+      "text": "RIDER STANDING: Unknown Rider\nChampionship Position: Unknown\nPoints: Unknown\nTeam: Unknown",
+      "metadata": {
+        "file_key": "services_documentation",
+        "chunk_type": "rider_standing",
+        "rider_name": "Unknown Rider",
+        "racing_number": "Unknown",
+        "position": "Unknown",
+        "points": "Unknown",
+        "team": "Unknown"
+      }
+    },
+    {
+      "text": "RIDER STANDING: Unknown Rider\nChampionship Position: Unknown\nPoints: Unknown\nTeam: Unknown",
+      "metadata": {
+        "file_key": "services_documentation",
+        "chunk_type": "rider_standing",
+        "rider_name": "Unknown Rider",
+        "racing_number": "Unknown",
+        "position": "Unknown",
+        "points": "Unknown",
+        "team": "Unknown"
+      }
+    },
+    {
+      "text": "RIDER STANDING: Unknown Rider\nChampionship Position: Unknown\nPoints: Unknown\nTeam: Unknown",
+      "metadata": {
+        "file_key": "services_documentation",
+        "chunk_type": "rider_standing",
+        "rider_name": "Unknown Rider",
+        "racing_number": "Unknown",
+        "position": "Unknown",
+        "points": "Unknown",
+        "team": "Unknown"
+      }
+    },
+    {
+      "text": "MOTOGP HISTORICAL RECORDS AND STATISTICS:\nTotal Records: 3\n\nCATEGORIES COVERED:\n- Speed Records\n- Lap Records  \n- Championship Records\n- Pole Position Records\n- Victory Records\n- Career Milestones",
+      "metadata": {
+        "file_key": "sdk_documentation",
+        "chunk_type": "records_summary",
+        "total_records": 3
+      }
+    },
+    {
+      "text": "RECORD: Unknown\nRecord Holder: Unknown\nDate: Unknown\nCircuit: Unknown",
+      "metadata": {
+        "file_key": "sdk_documentation",
+        "chunk_type": "record_entry",
+        "record_event": "Unknown",
+        "record_holder": "Unknown",
+        "speed": "Unknown",
+        "time": "Unknown",
+        "date": "Unknown",
+        "track": "Unknown"
+      }
+    },
+    {
+      "text": "RECORD: Unknown\nRecord Holder: Unknown\nDate: Unknown\nCircuit: Unknown",
+      "metadata": {
+        "file_key": "sdk_documentation",
+        "chunk_type": "record_entry",
+        "record_event": "Unknown",
+        "record_holder": "Unknown",
+        "speed": "Unknown",
+        "time": "Unknown",
+        "date": "Unknown",
+        "track": "Unknown"
+      }
+    },
+    {
+      "text": "RECORD: Unknown\nRecord Holder: Unknown\nDate: Unknown\nCircuit: Unknown",
+      "metadata": {
+        "file_key": "sdk_documentation",
+        "chunk_type": "record_entry",
+        "record_event": "Unknown",
+        "record_holder": "Unknown",
+        "speed": "Unknown",
+        "time": "Unknown",
+        "date": "Unknown",
+        "track": "Unknown"
+      }
+    }
+  ],
+  "metadata": {
+    "created_at": "2025-08-08T20:40:04.016751",
+    "total_chunks": 28,
+    "embedding_dimensions": 3072,
+    "faiss_index_size": 0,
+    "chunk_types": [
+      "season_calendar",
+      "developer_guide",
+      "record_entry",
+      "rider_standing",
+      "standings_summary",
+      "race_summary",
+      "race_event",
+      "race_result",
+      "race_conditions",
+      "records_summary"
+    ],
+    "files_processed": [
+      "use_cases",
+      "sdk_documentation",
+      "developer_guides",
+      "api_examples",
+      "services_documentation",
+      "tutorials"
+    ]
+  }
+}

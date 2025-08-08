@@ -1,0 +1,4 @@
+tutorial_title,difficulty,duration,prerequisites,learning_objectives,technologies,step_count,code_snippets,video_available,completion_rate
+Build Your First DApp on Hedera,Beginner,2 hours,Basic JavaScript knowledge,"Create account, deploy contract, interact with UI","React, Hedera SDK, MetaMask",8,Yes,Yes,85%
+Advanced HCS Message Ordering,Advanced,4 hours,"Hedera fundamentals, cryptography basics","Understand consensus ordering, implement message verification","Java SDK, Mirror Node API",12,Yes,No,62%
+NFT Collection Management,Intermediate,3 hours,"Token basics, metadata standards","Create NFT collection, implement royalties, batch operations","HTS, IPFS, React",10,Yes,Yes,74%
