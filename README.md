@@ -2,7 +2,7 @@
 
 ## 🌐 Advanced Multi-Agent AI System with LangGraph & Google Gemini for Hedera Blockchain
 
-*A sophisticated bidirectional agent chaining system that leverages **LangGraph** for orchestration and **Google's Gemini API** for intelligent, collaborative problem-solving through specialized AI agents focused on **Hedera Hashgraph blockchain development**.*
+*A sophisticated bidirectional agent chaining system that leverages **LangGraph** for orchestration and **Google's Gemini API** for intelligent, collaborative problem-solving through specialized AI agents focused on **Hedera Hashgraph blockchain development and ecosystem support**.*
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
@@ -52,7 +52,7 @@ GOOGLE_API_KEY=your_google_api_key_here
 SUPPORT_AGENT_MODEL=gemini-2.0-flash-exp
 TECHNICAL_AGENT_MODEL=gemini-2.0-flash-exp
 PRODUCT_AGENT_MODEL=gemini-2.0-flash-exp
-MOTOGP_RAG_AGENT_MODEL=gemini-2.0-flash-exp
+HEDERA_RAG_AGENT_MODEL=gemini-2.0-flash-exp
 
 # System Configuration
 MAX_CHAIN_HOPS=10
@@ -65,30 +65,30 @@ PORT=8000
 HOST=0.0.0.0
 ```
 
-### 2. MotoGP RAG Knowledge Base Setup
+### 2. Hedera RAG Knowledge Base Setup
 
 #### Create Embeddings (First Time Setup)
 ```bash
-# Create the MotoGP knowledge base with embeddings
-python create_motogp_embeddings.py
+# Create the Hedera knowledge base with embeddings
+python create_hedera_embeddings.py
 
 # This will:
-# - Process MotoGP CSV data files
+# - Process Hedera CSV data files
 # - Generate 3072-dimensional embeddings using Gemini
-# - Create FAISS vector index
+# - Create FAISS vector index (if available)
 # - Package knowledge base for production use
 ```
 
 **Expected Output:**
 ```
-🏁 Starting MotoGP Knowledge Base Creation...
-📊 Processing MotoGP data files...
+🌐 Starting Hedera Knowledge Base Creation...
+📊 Processing Hedera data files...
 🔮 Generating embeddings (this may take a few minutes)...
-💾 Creating FAISS index with 359 knowledge chunks...
+💾 Creating knowledge base with 28 knowledge chunks...
 ✅ Knowledge base created successfully!
-   - Embeddings: 359 chunks
+   - Embeddings: 28 chunks
    - Index size: 3072 dimensions
-   - Location: agents/motogp_rag_kb/
+   - Location: agents/hedera_rag_kb/
 ```
 
 ### 3. Server Management
@@ -115,7 +115,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
   ✅ Support: healthy (3 connections)
   ✅ Technical: healthy (3 connections)  
   ✅ Product: healthy (3 connections)
-  ✅ MotoGP_RAG: healthy (3 connections)
+  ✅ Hedera_RAG: healthy (3 connections)
 
 🌟 Server running on http://localhost:8000
 📚 API Documentation: http://localhost:8000/docs
@@ -149,23 +149,23 @@ python terminal_client.py
 🔗 Server Status: ✅ healthy
 🎯 Enter your query (or 'help' for commands): 
 
-> Who won the 2023 MotoGP championship?
+> What is Hedera Consensus Service and how does it work?
 
 🔄 Initiating Bidirectional Agent Chain...
-📝 Query: Who won the 2023 MotoGP championship?
+📝 Query: What is Hedera Consensus Service and how does it work?
 🎯 Priority: medium
 ⠋ Processing bidirectional agent chain...
 
-🏁 RESPONSE GENERATED
-🎯 Confidence: 0.87 | ⏱️ Time: 3.2s
-🤖 Agents: Support → MotoGP_RAG → Support
+🌐 RESPONSE GENERATED
+🎯 Confidence: 0.89 | ⏱️ Time: 2.8s
+🤖 Agents: Support → Hedera_RAG → Support
 
 📋 Response:
-The 2023 MotoGP championship was won by Francesco Bagnaia from Italy, 
-riding for the Ducati Lenovo Team. He secured his second consecutive 
-world championship title with exceptional consistency throughout the 
-season, winning 5 races and finishing on the podium 13 times out of 
-20 races.
+Hedera Consensus Service (HCS) is a decentralized messaging service that 
+provides immutable ordering and timestamping of messages. It allows 
+applications to achieve consensus on the order of events without needing 
+to store the actual data on-ledger, making it cost-effective and scalable 
+for high-throughput applications.
 ```
 
 #### Continuous Chat Experience
@@ -185,13 +185,14 @@ Chat> Help me troubleshoot a database connection error
 I'll help you troubleshoot the database connection error. Let me analyze 
 the most common causes and provide systematic solutions...
 
-Chat> What's the latest MotoGP race results?
+Chat> How do I create a token using Hedera Token Service?
 
-🔄 Processing: Support → MotoGP_RAG → Support  
-🎯 Confidence: 0.91 | Agents: 2 | Time: 2.8s
+🔄 Processing: Support → Hedera_RAG → Support  
+🎯 Confidence: 0.92 | Agents: 2 | Time: 2.6s
 
-📋 MotoGP Information:
-Based on the latest data, here are the most recent race results...
+📋 Hedera Information:
+To create a token using Hedera Token Service (HTS), you'll need to use 
+the TokenCreateTransaction with the appropriate SDK...
 
 Chat> back
 
@@ -280,8 +281,8 @@ User Query → Support Agent ┬→ Technical Agent ↘
 
 ##### 🌐 **Hedera RAG Agent** - Blockchain Knowledge Specialist
 - **Primary Role**: Advanced RAG-powered Hedera blockchain expertise
-- **Capabilities**: 28+ knowledge chunks, FAISS vector search, 3072-dimensional embeddings
-- **Knowledge Base**: Developer guides, API documentation, use cases, SDK information
+- **Capabilities**: 28 knowledge chunks, vector search, 3072-dimensional embeddings
+- **Knowledge Base**: Developer guides, services documentation, API examples, use cases, tutorials, SDK information
 - **Collaboration Pattern**: Provides blockchain expertise to all agents when needed
 
 ##### 🧠 **Base Agent** - Foundation Architecture
@@ -310,9 +311,9 @@ class ChainOrchestrator:
 **Network Topology:**
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│  Support Agent  │ ←→  │ Technical Agent │ ←→  │ MotoGP RAG      │
+│  Support Agent  │ ←→  │ Technical Agent │ ←→  │ Hedera RAG      │
 │   (Customer     │     │  (Diagnostics   │     │ Agent           │
-│ Communication)  │     │ & Solutions)    │     │ (Racing Data)   │
+│ Communication)  │     │ & Solutions)    │     │ (Blockchain)    │
 └────────┬────────┘     └────────┬────────┘     └────────┬────────┘
          │                       │                       │
          └───────────┬───────────┴───────────┬───────────┘
@@ -326,11 +327,11 @@ class ChainOrchestrator:
 
 #### 3. **RAG Infrastructure** - Advanced Knowledge Retrieval
 
-##### **MotoGP Knowledge Base**
+##### **Hedera Knowledge Base**
 - **Embeddings**: 3072-dimensional vectors (Gemini embedding model)
-- **Vector Search**: FAISS CPU for efficient similarity search
-- **Knowledge Chunks**: 359 structured data points
-- **Data Sources**: Rider profiles, race results, standings, circuit information
+- **Vector Search**: FAISS CPU for efficient similarity search (with fallback to text search)
+- **Knowledge Chunks**: 28 structured data points
+- **Data Sources**: Developer guides, services documentation, API examples, use cases, tutorials, SDK documentation
 - **Processing**: Automatic file type detection, flexible column mapping
 
 ##### **RAG Pipeline:**
@@ -407,7 +408,7 @@ routing_patterns = {
     "technical": ["error", "bug", "crash", "performance", "system"],
     "product": ["feature", "pricing", "plan", "upgrade", "license"],
     "support": ["help", "question", "how to", "tutorial", "guide"],
-    "motogp": ["motogp", "racing", "rider", "race", "championship"]
+    "hedera": ["hedera", "blockchain", "hashgraph", "hcs", "hfs", "hts", "smart contracts"]
 }
 ```
 
@@ -420,9 +421,9 @@ routing_patterns = {
     
   Step 2: Technical Agent (handoff)  
     📝 Action: processed | 🎯 Confidence: 0.85
-    🔀 HANDOFF: Support → Technical
+    🔀 HANDOFF: Support → Hedera_RAG
     
-📊 Communication Flow: Support → Technical → Support
+📊 Communication Flow: Support → Hedera_RAG → Support
 🧠 Flow Type: bidirectional, handoff-enabled agent chaining
 ```
 
@@ -436,7 +437,7 @@ def check_agent_health(self) -> Dict[str, Any]:
             "Support": {"status": "healthy", "connections": 3},
             "Technical": {"status": "healthy", "connections": 3},
             "Product": {"status": "healthy", "connections": 3},
-            "MotoGP_RAG": {"status": "healthy", "connections": 3}
+            "Hedera_RAG": {"status": "healthy", "connections": 3}
         }
     }
 ```
@@ -450,7 +451,7 @@ GOOGLE_API_KEY=your_api_key
 SUPPORT_AGENT_MODEL=gemini-2.0-flash-exp
 TECHNICAL_AGENT_MODEL=gemini-2.0-flash-exp
 PRODUCT_AGENT_MODEL=gemini-2.0-flash-exp
-MOTOGP_RAG_AGENT_MODEL=gemini-2.0-flash-exp
+HEDERA_RAG_AGENT_MODEL=gemini-2.0-flash-exp
 
 # Agent Behavior Tuning
 SUPPORT_AGENT_TEMPERATURE=0.7
@@ -465,7 +466,7 @@ AGENT_TIMEOUT=30
 MAX_TOKENS_PER_RESPONSE=2048
 
 # RAG Configuration
-MOTOGP_KB_PATH=agents/motogp_rag_kb
+HEDERA_KB_PATH=agents/hedera_rag_kb
 EMBEDDING_DIMENSIONS=3072
 FAISS_INDEX_TYPE=IndexFlatIP
 
@@ -549,10 +550,10 @@ bandit -r .                 # Security analysis
 │  Each agent maintains bidirectional connections to all     │
 │  other agents, enabling seamless collaboration             │
 ├─────────────────────────────────────────────────────────────┤
-│  Support Agent      → [Technical, Product, MotoGP_RAG]     │
-│  Technical Agent    → [Support, Product, MotoGP_RAG]       │
-│  Product Agent      → [Support, Technical, MotoGP_RAG]     │
-│  MotoGP_RAG Agent   → [Support, Technical, Product]        │
+│  Support Agent      → [Technical, Product, Hedera_RAG]     │
+│  Technical Agent    → [Support, Product, Hedera_RAG]       │
+│  Product Agent      → [Support, Technical, Hedera_RAG]     │
+│  Hedera_RAG Agent   → [Support, Technical, Product]        │
 └─────────────────────────────────────────────────────────────┘
 
 📈 Communication Patterns:
@@ -586,14 +587,14 @@ resolve this issue?
 
 ### **RAG-Powered Knowledge Retrieval**
 ```python
-# Example: MotoGP-specific query
-query = "Compare the performance of Ducati and Honda bikes in the 2023 season"
+# Example: Hedera-specific query
+query = "How do I implement smart contracts on Hedera and what are the gas fees?"
 
 # Expected processing:
-# 1. Support Agent identifies racing query → MotoGP_RAG handoff
-# 2. MotoGP_RAG Agent performs vector search across 359 knowledge chunks
-# 3. Retrieves relevant data: bike performance, race results, standings
-# 4. Generates comprehensive comparison with statistics
+# 1. Support Agent identifies blockchain query → Hedera_RAG handoff
+# 2. Hedera_RAG Agent performs vector search across 28 knowledge chunks
+# 3. Retrieves relevant data: smart contract documentation, fee structure
+# 4. Generates comprehensive implementation guide with cost analysis
 # 5. Support Agent synthesizes into user-friendly response
 ```
 
@@ -645,10 +646,10 @@ echo $GOOGLE_API_KEY
 #### **2. MotoGP RAG Agent Errors**
 ```bash
 # Recreate knowledge base
-python create_motogp_embeddings.py
+python create_hedera_embeddings.py
 
 # Verify knowledge base files
-ls -la agents/motogp_rag_kb/
+ls -la agents/hedera_rag_kb/
 ```
 
 #### **3. Agent Communication Issues**
@@ -698,7 +699,7 @@ cd agent-examples/
 # Run example scenarios
 python examples/customer_support_scenario.py
 python examples/technical_troubleshooting.py
-python examples/motogp_analysis.py
+python examples/hedera_blockchain_analysis.py
 ```
 
 ---
@@ -753,8 +754,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**🌟 Built with ❤️ by the Tian Schoeman**
+**🌟 Built with ❤️ using Claude Code**
 
-[⭐ Star this repo](https://github.com/schoemantian/openAgents) | [📖 Read the docs](markdown_guides)
+[⭐ Star this repo](https://github.com/ZubeidHendricks/hedera-bidirectional-agent-chain-) | [📖 Read the docs](markdown_guides)
 
 </div>
